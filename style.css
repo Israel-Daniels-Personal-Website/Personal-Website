@@ -1,30 +1,13 @@
-*{
+body{
     margin: 0;
     padding: 0;
     font-family: sans-serif;
-}
-
-.hero{
-    position: relative;
-    width: 100%;
-    height: 100vh;
-    background: #eff4fe;
-}
-
-.nav{
-    display: flex;
-    width: 84%;
-    margin: auto;
-    padding: 20px 100px;
-    align-items: center;
-    justify-content: center;
-    flex-direction: row;
+    background-color: rgb(54, 69, 79);
 }
 
 .TranLogo2{
     width: 100px;
     height: 100px;
-    
 } 
 
 
@@ -40,8 +23,7 @@ nav div{
     padding: 0px 10%;
     border: 1px solid black;
     width: 80%;
-    
-
+    overflow: hidden;
 }
 
 a{
@@ -49,19 +31,105 @@ a{
     font-weight: bold;
     font-family: sans-serif;
     padding: 10px;
-    background-color: rgb(128, 113, 113);
+    background-color: rgb(145, 163, 176);
     text-decoration: none;
+    overflow: hidden;
+    background: linear-gradient(to right, midnightblue, midnightblue 50%, royalblue 50%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-size: 200% 100%;
+    background-position: 100%;
+    transition: background-position 275ms ease;
 }
+
+a:hover {
+    background-position: 0 100%;
+  }
 
 .transform{
     background-color:red;
   }
 
-.welcome{
+.upperThird{
     display: flex;
     font-family: sans-serif;
-    color: rgb(128, 113, 113);
-    width: 40px;
-    height: 20px;
+    color:rgb(132, 132, 130);
+    height: 100%;
+    width: 100%;
+    background-color: rgb(229, 228, 226);
+    margin: 20px;
+    padding: 20px;
+}
+
+.whole{
+    color: rgb(178, 190, 181);
+    margin: 75px;
+    padding: 10px 10px 75px 10px;
+    background-color: rgb(42, 52, 57);
+}
+
+.quote{
+    margin: 60px 0 0 0;
+}
+
+.right{
+    float: right;
+}
+
+.aboutYou{
+    font-family: sans-serif;
     
 }
+
+.pose{
+    float: right;
+}
+
+.html{
+    margin-top: 75px; 
+}
+
+.css{
+    margin-top: 75px;
+}
+
+.javascript{
+    margin-top: 100px;
+}
+
+.lead{
+    margin-top: 100px;
+}
+
+.divided {
+    display: flex;
+    align-items: center;
+  }
+  
+  .divider {
+    flex-grow: 1;
+    border-bottom: 1px solid black;
+    margin: 5px
+  }
+
+  .website1{
+    display: flex;
+    padding-left: 900px;
+  }
+
+  .righttext{
+    display: flex;
+    flex-direction: row-reverse;
+  }
+
+  .gitcalc{
+    display: flex;
+    padding: 100px 200px 0 50px;
+  }
+
+  .socials{
+    margin-left: 100px;
+    margin-top: 50px;
+    color: rgb(145, 163, 176);
+  }
